@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B072D573366AE0C1EE498DF /* Pods_KisanHubFileParserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FBA8C68B32ECA38DD623C3 /* Pods_KisanHubFileParserUITests.framework */; };
+		940650E51FD7B89400E4A581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940650E41FD7B89400E4A581 /* AppDelegate.swift */; };
+		940650E71FD7B89400E4A581 /* FilterFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940650E61FD7B89400E4A581 /* FilterFileViewController.swift */; };
+		940650EA1FD7B89400E4A581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940650E81FD7B89400E4A581 /* Main.storyboard */; };
+		940650EC1FD7B89400E4A581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940650EB1FD7B89400E4A581 /* Assets.xcassets */; };
+		940650EF1FD7B89400E4A581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940650ED1FD7B89400E4A581 /* LaunchScreen.storyboard */; };
+		940650FA1FD7B89400E4A581 /* KisanHubFileParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940650F91FD7B89400E4A581 /* KisanHubFileParserTests.swift */; };
+		940651051FD7B89500E4A581 /* KisanHubFileParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940651041FD7B89500E4A581 /* KisanHubFileParserUITests.swift */; };
+		940651131FD7BB8100E4A581 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940651121FD7BB8100E4A581 /* Alamofire.framework */; };
+		9F50F43271F7F1F317337BE5 /* Pods_KisanHubFileParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4D5C4D6C0D7DF1D16EC488 /* Pods_KisanHubFileParser.framework */; };
+		F67FF94EF40B93DB29820ADF /* Pods_KisanHubFileParserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3945AA20C398392C9D95AA46 /* Pods_KisanHubFileParserTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940650F61FD7B89400E4A581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940650D91FD7B89400E4A581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940650E01FD7B89400E4A581;
+			remoteInfo = KisanHubFileParser;
+		};
+		940651011FD7B89500E4A581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940650D91FD7B89400E4A581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940650E01FD7B89400E4A581;
+			remoteInfo = KisanHubFileParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D88777D4BF086202C54CBF0 /* Pods-KisanHubFileParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParser/Pods-KisanHubFileParser.debug.xcconfig"; sourceTree = "<group>"; };
+		37B4C92D6A399F80FC4CFBF4 /* Pods-KisanHubFileParserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParserUITests/Pods-KisanHubFileParserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3945AA20C398392C9D95AA46 /* Pods_KisanHubFileParserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubFileParserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940650E11FD7B89400E4A581 /* KisanHubFileParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisanHubFileParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940650E41FD7B89400E4A581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		940650E61FD7B89400E4A581 /* FilterFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFileViewController.swift; sourceTree = "<group>"; };
+		940650E91FD7B89400E4A581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		940650EB1FD7B89400E4A581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940650EE1FD7B89400E4A581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		940650F01FD7B89400E4A581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940650F51FD7B89400E4A581 /* KisanHubFileParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubFileParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940650F91FD7B89400E4A581 /* KisanHubFileParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubFileParserTests.swift; sourceTree = "<group>"; };
+		940650FB1FD7B89400E4A581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940651001FD7B89500E4A581 /* KisanHubFileParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubFileParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940651041FD7B89500E4A581 /* KisanHubFileParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubFileParserUITests.swift; sourceTree = "<group>"; };
+		940651061FD7B89500E4A581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940651121FD7BB8100E4A581 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/KisanHubFileParser-foapshkleljnrsflmxuegwrvpapy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A426CBBE39408D033032EDE6 /* Pods-KisanHubFileParserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParserTests/Pods-KisanHubFileParserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A96F37990BBF7FFF5CC87555 /* Pods-KisanHubFileParserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParserUITests/Pods-KisanHubFileParserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4D5C4D6C0D7DF1D16EC488 /* Pods_KisanHubFileParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubFileParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FBA8C68B32ECA38DD623C3 /* Pods_KisanHubFileParserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisanHubFileParserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40735C41660C093D2ED19C5 /* Pods-KisanHubFileParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParser.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParser/Pods-KisanHubFileParser.release.xcconfig"; sourceTree = "<group>"; };
+		FDF978CE6DF68C12C09AF90D /* Pods-KisanHubFileParserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisanHubFileParserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KisanHubFileParserTests/Pods-KisanHubFileParserTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940650DE1FD7B89400E4A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940651131FD7BB8100E4A581 /* Alamofire.framework in Frameworks */,
+				9F50F43271F7F1F317337BE5 /* Pods_KisanHubFileParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650F21FD7B89400E4A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67FF94EF40B93DB29820ADF /* Pods_KisanHubFileParserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650FD1FD7B89500E4A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B072D573366AE0C1EE498DF /* Pods_KisanHubFileParserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9F4135EEC380BB4595DAC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D88777D4BF086202C54CBF0 /* Pods-KisanHubFileParser.debug.xcconfig */,
+				F40735C41660C093D2ED19C5 /* Pods-KisanHubFileParser.release.xcconfig */,
+				A426CBBE39408D033032EDE6 /* Pods-KisanHubFileParserTests.debug.xcconfig */,
+				FDF978CE6DF68C12C09AF90D /* Pods-KisanHubFileParserTests.release.xcconfig */,
+				A96F37990BBF7FFF5CC87555 /* Pods-KisanHubFileParserUITests.debug.xcconfig */,
+				37B4C92D6A399F80FC4CFBF4 /* Pods-KisanHubFileParserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		940650D81FD7B89400E4A581 = {
+			isa = PBXGroup;
+			children = (
+				940650E31FD7B89400E4A581 /* KisanHubFileParser */,
+				940650F81FD7B89400E4A581 /* KisanHubFileParserTests */,
+				940651031FD7B89500E4A581 /* KisanHubFileParserUITests */,
+				940650E21FD7B89400E4A581 /* Products */,
+				0A9F4135EEC380BB4595DAC0 /* Pods */,
+				A381F5DD6B4EF540B88E9C21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		940650E21FD7B89400E4A581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940650E11FD7B89400E4A581 /* KisanHubFileParser.app */,
+				940650F51FD7B89400E4A581 /* KisanHubFileParserTests.xctest */,
+				940651001FD7B89500E4A581 /* KisanHubFileParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940650E31FD7B89400E4A581 /* KisanHubFileParser */ = {
+			isa = PBXGroup;
+			children = (
+				940650E41FD7B89400E4A581 /* AppDelegate.swift */,
+				940650E61FD7B89400E4A581 /* FilterFileViewController.swift */,
+				940650E81FD7B89400E4A581 /* Main.storyboard */,
+				940650EB1FD7B89400E4A581 /* Assets.xcassets */,
+				940650ED1FD7B89400E4A581 /* LaunchScreen.storyboard */,
+				940650F01FD7B89400E4A581 /* Info.plist */,
+			);
+			path = KisanHubFileParser;
+			sourceTree = "<group>";
+		};
+		940650F81FD7B89400E4A581 /* KisanHubFileParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				940650F91FD7B89400E4A581 /* KisanHubFileParserTests.swift */,
+				940650FB1FD7B89400E4A581 /* Info.plist */,
+			);
+			path = KisanHubFileParserTests;
+			sourceTree = "<group>";
+		};
+		940651031FD7B89500E4A581 /* KisanHubFileParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				940651041FD7B89500E4A581 /* KisanHubFileParserUITests.swift */,
+				940651061FD7B89500E4A581 /* Info.plist */,
+			);
+			path = KisanHubFileParserUITests;
+			sourceTree = "<group>";
+		};
+		A381F5DD6B4EF540B88E9C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940651121FD7BB8100E4A581 /* Alamofire.framework */,
+				AF4D5C4D6C0D7DF1D16EC488 /* Pods_KisanHubFileParser.framework */,
+				3945AA20C398392C9D95AA46 /* Pods_KisanHubFileParserTests.framework */,
+				D0FBA8C68B32ECA38DD623C3 /* Pods_KisanHubFileParserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940650E01FD7B89400E4A581 /* KisanHubFileParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940651091FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParser" */;
+			buildPhases = (
+				6370EBD16A1228F314F6D16A /* [CP] Check Pods Manifest.lock */,
+				940650DD1FD7B89400E4A581 /* Sources */,
+				940650DE1FD7B89400E4A581 /* Frameworks */,
+				940650DF1FD7B89400E4A581 /* Resources */,
+				DFB39C5D7CDFADDCB370A8BE /* [CP] Embed Pods Frameworks */,
+				41120B79B5F02A61FD92E8C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KisanHubFileParser;
+			productName = KisanHubFileParser;
+			productReference = 940650E11FD7B89400E4A581 /* KisanHubFileParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940650F41FD7B89400E4A581 /* KisanHubFileParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9406510C1FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParserTests" */;
+			buildPhases = (
+				CD74D3016BAE49F4A9A1EA21 /* [CP] Check Pods Manifest.lock */,
+				940650F11FD7B89400E4A581 /* Sources */,
+				940650F21FD7B89400E4A581 /* Frameworks */,
+				940650F31FD7B89400E4A581 /* Resources */,
+				5946FD6B4652B669F8B7801F /* [CP] Embed Pods Frameworks */,
+				195950738A28A96438DB46A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940650F71FD7B89400E4A581 /* PBXTargetDependency */,
+			);
+			name = KisanHubFileParserTests;
+			productName = KisanHubFileParserTests;
+			productReference = 940650F51FD7B89400E4A581 /* KisanHubFileParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		940650FF1FD7B89500E4A581 /* KisanHubFileParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9406510F1FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParserUITests" */;
+			buildPhases = (
+				7683BFE5AD9117B0C5904D8F /* [CP] Check Pods Manifest.lock */,
+				940650FC1FD7B89500E4A581 /* Sources */,
+				940650FD1FD7B89500E4A581 /* Frameworks */,
+				940650FE1FD7B89500E4A581 /* Resources */,
+				C40C95C6181117256B2AB53D /* [CP] Embed Pods Frameworks */,
+				6CDE3FB069B0910587714942 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940651021FD7B89500E4A581 /* PBXTargetDependency */,
+			);
+			name = KisanHubFileParserUITests;
+			productName = KisanHubFileParserUITests;
+			productReference = 940651001FD7B89500E4A581 /* KisanHubFileParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940650D91FD7B89400E4A581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Abhijit;
+				TargetAttributes = {
+					940650E01FD7B89400E4A581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 27W62B67N5;
+						ProvisioningStyle = Automatic;
+					};
+					940650F41FD7B89400E4A581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 940650E01FD7B89400E4A581;
+					};
+					940650FF1FD7B89500E4A581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 940650E01FD7B89400E4A581;
+					};
+				};
+			};
+			buildConfigurationList = 940650DC1FD7B89400E4A581 /* Build configuration list for PBXProject "KisanHubFileParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940650D81FD7B89400E4A581;
+			productRefGroup = 940650E21FD7B89400E4A581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940650E01FD7B89400E4A581 /* KisanHubFileParser */,
+				940650F41FD7B89400E4A581 /* KisanHubFileParserTests */,
+				940650FF1FD7B89500E4A581 /* KisanHubFileParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940650DF1FD7B89400E4A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940650EF1FD7B89400E4A581 /* LaunchScreen.storyboard in Resources */,
+				940650EC1FD7B89400E4A581 /* Assets.xcassets in Resources */,
+				940650EA1FD7B89400E4A581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650F31FD7B89400E4A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650FE1FD7B89500E4A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195950738A28A96438DB46A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParserTests/Pods-KisanHubFileParserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41120B79B5F02A61FD92E8C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParser/Pods-KisanHubFileParser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5946FD6B4652B669F8B7801F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParserTests/Pods-KisanHubFileParserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6370EBD16A1228F314F6D16A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisanHubFileParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CDE3FB069B0910587714942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParserUITests/Pods-KisanHubFileParserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7683BFE5AD9117B0C5904D8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisanHubFileParserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40C95C6181117256B2AB53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParserUITests/Pods-KisanHubFileParserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD74D3016BAE49F4A9A1EA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisanHubFileParserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB39C5D7CDFADDCB370A8BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParser/Pods-KisanHubFileParser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KisanHubFileParser/Pods-KisanHubFileParser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940650DD1FD7B89400E4A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940650E71FD7B89400E4A581 /* FilterFileViewController.swift in Sources */,
+				940650E51FD7B89400E4A581 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650F11FD7B89400E4A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940650FA1FD7B89400E4A581 /* KisanHubFileParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940650FC1FD7B89500E4A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940651051FD7B89500E4A581 /* KisanHubFileParserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940650F71FD7B89400E4A581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940650E01FD7B89400E4A581 /* KisanHubFileParser */;
+			targetProxy = 940650F61FD7B89400E4A581 /* PBXContainerItemProxy */;
+		};
+		940651021FD7B89500E4A581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940650E01FD7B89400E4A581 /* KisanHubFileParser */;
+			targetProxy = 940651011FD7B89500E4A581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		940650E81FD7B89400E4A581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940650E91FD7B89400E4A581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		940650ED1FD7B89400E4A581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940650EE1FD7B89400E4A581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		940651071FD7B89500E4A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940651081FD7B89500E4A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9406510A1FD7B89500E4A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D88777D4BF086202C54CBF0 /* Pods-KisanHubFileParser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27W62B67N5;
+				INFOPLIST_FILE = KisanHubFileParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9406510B1FD7B89500E4A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40735C41660C093D2ED19C5 /* Pods-KisanHubFileParser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27W62B67N5;
+				INFOPLIST_FILE = KisanHubFileParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9406510D1FD7B89500E4A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A426CBBE39408D033032EDE6 /* Pods-KisanHubFileParserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KisanHubFileParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubFileParser.app/KisanHubFileParser";
+			};
+			name = Debug;
+		};
+		9406510E1FD7B89500E4A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF978CE6DF68C12C09AF90D /* Pods-KisanHubFileParserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KisanHubFileParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubFileParser.app/KisanHubFileParser";
+			};
+			name = Release;
+		};
+		940651101FD7B89500E4A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96F37990BBF7FFF5CC87555 /* Pods-KisanHubFileParserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KisanHubFileParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KisanHubFileParser;
+			};
+			name = Debug;
+		};
+		940651111FD7B89500E4A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B4C92D6A399F80FC4CFBF4 /* Pods-KisanHubFileParserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KisanHubFileParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Abhijit.KisanHubFileParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KisanHubFileParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940650DC1FD7B89400E4A581 /* Build configuration list for PBXProject "KisanHubFileParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940651071FD7B89500E4A581 /* Debug */,
+				940651081FD7B89500E4A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940651091FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9406510A1FD7B89500E4A581 /* Debug */,
+				9406510B1FD7B89500E4A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9406510C1FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9406510D1FD7B89500E4A581 /* Debug */,
+				9406510E1FD7B89500E4A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9406510F1FD7B89500E4A581 /* Build configuration list for PBXNativeTarget "KisanHubFileParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940651101FD7B89500E4A581 /* Debug */,
+				940651111FD7B89500E4A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940650D91FD7B89400E4A581 /* Project object */;
+}

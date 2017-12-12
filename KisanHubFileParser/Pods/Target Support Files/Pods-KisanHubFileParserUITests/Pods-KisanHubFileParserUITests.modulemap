@@ -1,0 +1,6 @@
+framework module Pods_KisanHubFileParserUITests {
+  umbrella header "Pods-KisanHubFileParserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
